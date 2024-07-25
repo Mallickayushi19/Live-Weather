@@ -43,34 +43,34 @@ function ShowWeatherReport(weather) {
     //rain / clouds/clear/haze/mist/ thunderstorm/fog/Tornado/snow/drizzle
 
     if (weathtype.textContent == 'Rain') {
-        document.body.style.backgroundImage = "url('./img/rain.jpg')";
+        document.body.style.backgroundImage = "url('rain.jpg')";
     }
     else if (weathtype.textContent == 'Clouds') {
-        document.body.style.backgroundImage = "url('./img/cloudy.jpg')";
+        document.body.style.backgroundImage = "url('cloudy.jpg')";
     }
     else if (weathtype.textContent == 'Clear') {
-        document.body.style.backgroundImage = "url('./img/clear.jpg')";
+        document.body.style.backgroundImage = "url('clear.jpg')";
     }
     else if (weathtype.textContent == 'Haze') {
-        document.body.style.backgroundImage = "url('./img/haze.jpg')";
+        document.body.style.backgroundImage = "url('haze.jpg')";
     }
     else if (weathtype.textContent == 'Mist') {
-        document.body.style.backgroundImage = "url('./img/blue-mist.jpg')";
+        document.body.style.backgroundImage = "url('blue-mist.jpg')";
     }
     else if (weathtype.textContent == 'Thunderstorm') {
-        document.body.style.backgroundImage = "url('./img/thunderstorm.jpg')";
+        document.body.style.backgroundImage = "url('thunderstorm.jpg')";
     }
     else if (weathtype.textContent == 'Fog') {
-        document.body.style.backgroundImage = "url('./img/fog.jpg')";
+        document.body.style.backgroundImage = "url('fog.jpg')";
     }
     else if (weathtype.textContent == 'Tornado') {
-        document.body.style.backgroundImage = "url('./img/tornado.jpg')";
+        document.body.style.backgroundImage = "url('tornado.jpg')";
     }
     else if (weathtype.textContent == 'Snow') {
-        document.body.style.backgroundImage = "url('./img/snow.jpg')";
+        document.body.style.backgroundImage = "url('snow.jpg')";
     }
     else if (weathtype.textContent == 'Drizzle') {
-        document.body.style.backgroundImage = "url('./img/drizzle.jpg')";
+        document.body.style.backgroundImage = "url('drizzle.jpg')";
     }
 
     const { icon} = weather.weather[0];
