@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial;
-    background: url(./img/background.jpg);
+    background: url(background.jpg);
     height: 100vh;
     overflow: hidden;
     background-position: top center;
